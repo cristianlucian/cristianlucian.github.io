@@ -106,6 +106,10 @@ body{
 /* Media queries */
 @media (max-width: 768px){
 
+  ul{
+    padding-left: 0px;
+  }
+
   .centered-box img {
     width: 200px;
   }
