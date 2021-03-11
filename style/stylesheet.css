@@ -1,0 +1,120 @@
+/* Font sizes */
+h1{
+  font-size: 70px;
+  font-weight: bold;
+}
+
+h2{
+  font-weight: bold;
+  font-size: 50px;
+}
+
+h3{
+  font-weight: bold;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+/* Navigation */
+.navigation{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 0px;
+}
+
+.navigation li{
+  display: inline-block;
+}
+
+.navigation a{
+  margin-left: 15px;
+  color: #000000;
+}
+
+.navigation li:first-of-type{
+  margin-left: 0px;
+}
+
+/* Intro */
+.colored-background{
+  background: url('../images/bg.jpg');
+  background-size: auto;
+  background-size: 100%;
+  color: #fff;
+}
+
+.centered-box{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 50px;
+}
+
+.centered-box img{
+  width: 300px;
+  border-radius: 50%;
+}
+
+/* About */
+.about img{
+  width: 140px;
+  border-radius: 50%;
+}
+
+.about{
+  text-align: center;
+  margin-top: 40px;
+}
+
+
+/* Why Us */
+.why-us img{
+  width: 100%;
+}
+
+.why-us .row{
+  padding: 40px;
+}
+
+.light-background{
+  background: #f1f1f1;
+}
+
+.why-us{
+  margin-top: 40px;
+}
+
+/* Contact us */
+.contact img{
+  width: 100%;
+}
+
+.contact-heading{
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Footer */
+.footer{
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Media queries */
+@media (max-width: 768px){
+
+  .centered-box img {
+    width: 200px;
+  }
+
+  h1{
+    font-size: 40px;
+  }
+
+  h2{
+    font-size: 30px;
+  }
+}
